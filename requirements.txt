@@ -1,0 +1,4 @@
+# Zepton's core runs on the Python standard library only — nothing to pip install.
+# Optional external tools are installed via Termux's pkg, not pip:
+#   pkg install metasploit      # msfvenom / msfconsole (android + metasploit modules)
+#   pkg install android-tools   # adb (android/adb_enum)
